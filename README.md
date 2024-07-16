@@ -78,7 +78,7 @@ python src/main.py
 
 ## 3. Citation & Acknowledgement
 
-We are grateful to everyone who contributed to this project. The article has been published in the CIKM.  We remain grateful to every user/reviewer who provided input on the project and welcome your valuable comments.
+We are grateful to everyone who contributed to this project. The article has been published in the CIKM2024.
 
 If the code and the paper are useful for you, it is appreciable to cite our paper:
 ```bash
