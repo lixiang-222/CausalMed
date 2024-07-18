@@ -82,7 +82,7 @@ We are grateful to everyone who contributed to this project. The article has bee
 
 If the code and the paper are useful for you, it is appreciable to cite our paper:
 ```bash
-@article{li2024causalmed,
+@inproceedings{li2024causalmed,
   title={CausalMed: Causality-Based Personalized Medication Recommendation Centered on Patient Health State},
   author={Li, Xiang and Liang, Shunpan and Lei, Yu and Li, Chen and Hou, Yulei and Ma, Tengfei},
   booktitle={Proceedings of the 33nd ACM International Conference on Information and Knowledge Management},
