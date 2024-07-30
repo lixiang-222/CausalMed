@@ -59,10 +59,11 @@ statsmodels == 0.14.0
 
 1.MIMIC-III:Due to the privacy of medical data, we cannot directly provide source data. You must apply for permission at https://physionet.org/content/mimiciii/1.4/ and download the data set after passing the review. And go into the folder and unzip three main files (PROCEDURES_ICD.csv.gz, PRESCRIPTIONS.csv.gz, DIAGNOSES_ICD.csv.gz) into /data/inputs/.
 
+2.MIMIC-IV:Similar to the MIMIC-IV process
 
-2.Known DDI:download the DDI file and move it to the data folder download https://drive.google.com/file/d/1mnPc0O0ztz0fkv3HF-dpmBb8PLWsEoDz/view?usp=sharing
+3.Known DDI:download the DDI file and move it to the data folder download https://drive.google.com/file/d/1mnPc0O0ztz0fkv3HF-dpmBb8PLWsEoDz/view?usp=sharing
 
-3.processing the data to get a complete records
+4.processing the data to get a complete records
 
 ```bash
 python data/processing.py
@@ -75,7 +76,17 @@ python data/ddi_mask_H.py
 python src/main.py
 ```
 
+
 ## 3. Citation & Acknowledgement
 
-As the article has not yet been published, we are unable to attach contact details. We remain grateful to every user/reviewer who provided input on the project and welcome your valuable comments.
+We are grateful to everyone who contributed to this project. The article has been published in the CIKM2024.
 
+If the code and the paper are useful for you, it is appreciable to cite our paper:
+```bash
+@inproceedings{li2024causalmed,
+  title={CausalMed: Causality-Based Personalized Medication Recommendation Centered on Patient Health State},
+  author={Li, Xiang and Liang, Shunpan and Lei, Yu and Li, Chen and Hou, Yulei and Ma, Tengfei},
+  booktitle={Proceedings of the 33nd ACM International Conference on Information and Knowledge Management},
+  year={2024}
+}
+```
