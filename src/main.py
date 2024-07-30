@@ -22,10 +22,10 @@ def parse_args():
                         help="debug mode, the number of samples, "
                              "the number of generations run are very small, "
                              "designed to run on cpu, the development of the use of")
-    parser.add_argument("--Test", default=True, help="test mode")
+    parser.add_argument("--Test", default=False, help="test mode")
 
     # environment
-    parser.add_argument('--dataset', default='mimic3', help='mimic3/mimic4')
+    parser.add_argument('--dataset', default='mimic4', help='mimic3/mimic4')
     parser.add_argument('--resume_path', default="../saved/mimic3/trained_model_0.5405", type=str,
                         help='path of well trained model, only for evaluating the model, needs to be replaced manually')
     parser.add_argument('--device', type=int, default=0, help='gpu id to run on, negative for cpu')

@@ -11,7 +11,8 @@ from sklearn.metrics import roc_auc_score, f1_score
 
 warnings.filterwarnings('ignore')
 
-dataset = 'mimic3'
+# dataset = 'mimic3'
+dataset = 'mimic4'
 
 
 def get_n_params(model):
