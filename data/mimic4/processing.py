@@ -350,11 +350,11 @@ if __name__ == '__main__':
     # please change into your own MIMIC folder
 
     # input files
-    med_file = "./input/mimic4/prescriptions.csv"
-    diag_file = './input/mimic4/diagnoses_icd.csv'
-    procedure_file = './input/mimic4/procedures_icd.csv'
+    med_file = "./input/prescriptions.csv"
+    diag_file = './input/diagnoses_icd.csv'
+    procedure_file = './input/procedures_icd.csv'
 
-    med_structure_file = './input/idx2SMILES.pkl'
+    med_structure_file = './input/idx2drug.pkl'
 
     # drug code mapping files
     ndc2atc_file = './input/ndc2atc_level4.csv'
