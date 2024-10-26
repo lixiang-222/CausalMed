@@ -1,6 +1,7 @@
 # CausalMed
 
 The official version of `CausalMed` includes the complete model architecture, training methods, and test examples.
+https://dl.acm.org/doi/abs/10.1145/3627673.3679542
 
 ## 1. Folder Specification
 
@@ -85,9 +86,10 @@ If the code and the paper are useful for you, it is appreciable to cite our pape
 ```bash
 @inproceedings{li2024causalmed,
   title={CausalMed: Causality-Based Personalized Medication Recommendation Centered on Patient Health State},
-  author = {Li, Xiang and Liang, Shunpan and Lei, Yu and Li, Chen and Hou, Yulei and Zheng, Dashun and Ma, Tengfei},
-  booktitle={Proceedings of the 33nd ACM International Conference on Information and Knowledge Management},
-  year={2024},
-  pages = {1276–1285}
+  author={Li, Xiang and Liang, Shunpan and Lei, Yu and Li, Chen and Hou, Yulei and Zheng, Dashun and Ma, Tengfei},
+  booktitle={Proceedings of the 33rd ACM International Conference on Information and Knowledge Management},
+  pages={1276--1285},
+  year={2024}
 }
+
 ```
